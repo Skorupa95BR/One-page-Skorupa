@@ -1,0 +1,174 @@
+body {
+    /*background: linear-gradient(rgb(172, 165, 165), white);*/
+    background: white;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 250px;
+}
+
+.nome-cabecalho {
+    font-size: 90px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    padding: 80px 0 0 15px;
+}
+
+
+/*Código para colocar os botoes de navegação, caso queira
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: -50px 0px 0px 800px;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    font-size: 40px;
+    margin: 0 50px 0 50px;
+    color: white;
+}
+
+nav li:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}*/
+
+#banner {
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    padding: 10px 20px 0px 10px;
+    float: left;
+}
+
+.titulo-principal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    padding: 30px 300px 40px 0px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.texto-principal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7em;
+    height: 300px;
+    line-height: 38px;
+}
+
+.estudo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    padding: 30px 300px 27px 20px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.texto-estudo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7em;
+    padding: 18px;
+    line-height: 38px;
+}
+
+.logo li {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    vertical-align: top;
+    margin: 12px 10px 0px 200px;
+    box-sizing: border-box;
+    border: 7px solid #000000;
+    border-radius: 10px;
+}
+
+.logo li:hover {
+    color: #c78c19;
+    text-decoration: underline;
+    border-color: #c78c19;
+    transform: scale(1.1);
+}
+
+.html,
+.css,
+.javascript,
+.vscode {
+    width: 150px;
+    padding: 15px;
+}
+
+.nivel {
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.experiencia-profissional {
+    margin: 100px 0 0 0;
+}
+
+.foto-experiencia {
+    float: left;
+    margin: 15px;
+    height: 400px;
+}
+
+.experiencia {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    padding: 30px 300px 40px 0px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.texto-experiencia {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7em;
+    padding: 18px;
+    line-height: 38px;
+}
+
+.imagem-rodape {
+    width: 100%;
+    height: 350px;
+}
+
+.titulo-contato {
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    padding: 30px 300px 40px 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.telefone,
+.email {
+    margin: 0 0 0 90px;
+    line-height: 55px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.linkedin {
+    margin: 10px 0px 10px 90px;
+    height: 45px;
+}
+
+.github {
+    margin: 10px 0 10px 20px;
+    height: 45px;
+}
